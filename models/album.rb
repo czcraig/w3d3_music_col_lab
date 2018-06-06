@@ -1,11 +1,11 @@
 require('pg')
 require_relative('../db/sql_runner')
-#require_relative('artist')
+require_relative('artist')
 
 
-class Album()
+class Album
 
-attr_accessor :title :genre
+attr_accessor :title, :genre
 attr_reader :id
 
 
